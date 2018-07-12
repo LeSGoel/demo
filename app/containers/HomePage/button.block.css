@@ -18,3 +18,12 @@
     height: 16px;
     line-height: 16px;
 }
+.icon{
+    height: 16px;
+    margin-right: 8px;
+    overflow: hidden;
+    width: 16px;
+}
+.icon[state|animate] {
+    animation: 3s ease-in 1s icon-animation;
+}
