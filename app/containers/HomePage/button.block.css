@@ -1,0 +1,55 @@
+.a {
+    background-color: #ed2651;
+    border: 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: black;
+    height: 24%;
+    line-height: 24px;
+    overflow: hidden;
+    margin: 30px;
+    padding: 0 16px;
+}
+.bg{
+    background-color: yellow;
+    height: 700px;
+    
+}
+
+.b{
+    background-color: white;;
+    color: #ed2651;
+}
+.c {
+    height: 16%;
+    line-height: 16px;
+}
+.d {
+    height: 16px;
+    margin-right: 8px;
+    overflow: hidden;
+    width: 16px;
+}
+.e {
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 174, 255);
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear
+}
+.f {
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: #d5d5d5;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
