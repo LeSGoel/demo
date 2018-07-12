@@ -6,6 +6,9 @@ module.exports = {
   parser: 'babel-eslint',
   extends: ['airbnb', 'prettier', 'prettier/react'],
   plugins: ['prettier', 'redux-saga', 'react', 'jsx-a11y'],
+  plugins: [
+    require("@css-blocks/jsx/dist/src/transformer/babel").makePlugin({ rewriter }),
+  ],
   env: {
     browser: true,
     node: true,
