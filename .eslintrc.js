@@ -5,13 +5,6 @@ const prettierOptions = JSON.parse(fs.readFileSync('./.prettierrc', 'utf8'));
 module.exports = {
   parser: 'babel-eslint',
   extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['prettier', 'redux-saga', 'react', 'jsx-a11y'],
-<<<<<<< HEAD
-=======
-  plugins: [
-    require("@css-blocks/jsx/dist/src/transformer/babel").makePlugin({ rewriter }),
-  ],
->>>>>>> c62c38a93962ba468bb69468f2a7d766baf8c2e6
   env: {
     browser: true,
     node: true,
